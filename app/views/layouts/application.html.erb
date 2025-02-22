@@ -22,7 +22,7 @@
     <%# Header %>
     <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #D10056;">
       <div class="container-fluid">,
-        <a class="navbar-brand" href="/"><img src="idea.jpg" alt="Ideas App"></a>
+        <a class="navbar-brand" href="/"><img src="/idea.jpg" alt="Ideas App"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,8 +39,9 @@
     </nav>
     
     <%# Center Content %>
-    <div class="container" >
+    <div class="container" style="background-image: url('notepad.png');">
       <%= yield %>
+      </div>
     </div>
 
     <%# Footer %>
