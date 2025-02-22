@@ -8,6 +8,7 @@ Things you may want to cover:
 * Ruby version
 
 * System dependencies
+   Execute ` bundle install` so that all dependencies mentioned in gemfile are installed properly
 
 * Configuration
 
